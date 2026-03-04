@@ -81,7 +81,7 @@
           <a class="nav-link active" href="index.html">होम </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Agro wishes.php">अग्रो विशेष </a>
+          <a class="nav-link" href="Agro wishes.html">अग्रो विशेष </a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="whether.php">हवामान</a>
