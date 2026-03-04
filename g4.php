@@ -31,7 +31,7 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.php">होम </a>
+          <a class="nav-link active" href="index.html">होम </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Agro wishes.php">अग्रो विशेष </a>

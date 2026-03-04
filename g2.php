@@ -24,14 +24,14 @@
 
 <nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container">
-    <a class="navbar-brand" href="indexmain.php" id="logo"><span>A</span>growin</a>
+    <a class="navbar-brand" href="index.html" id="logo"><span>A</span>growin</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span><i class = "fa-solid fa-bars"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="indexmain.php">होम </a>
+          <a class="nav-link active" href="index.html">होम </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Agro wishes.php">अग्रो विशेष </a>
