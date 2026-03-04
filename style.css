@@ -1,0 +1,569 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+/*Navbar Start*/
+
+#navbar{
+  background: green;
+}
+
+#logo{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px;
+  margin-bottom: 5px;
+}
+
+#logo span {
+  color: orange;
+
+}
+
+.navbar-toggler span{
+  color: white;
+
+}
+
+.navbar-nav{
+  margin-left: 20px;
+}
+.nav-item .nav-link{
+font-size: 16px;
+font-weight: 550;
+color: white;
+letter-spacing: 1px;
+border-radius: 100px;
+transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  background: rgb(111, 232, 111);
+  color: white;
+}
+
+#navbar form button{
+  background: orange;
+  color: white;
+  border: none;
+}
+
+#navbar form button:hover{
+  background: rgb(255, 255, 255);
+  color: green;
+}
+
+/*Navbar end*/
+
+/* Carousel Start */
+
+#demo {
+  margin-top: 10px;
+  size: cover;
+}
+
+/* Carousel end */
+
+.maquee {
+  margin-top: 10px;
+  background: green;
+  background-size: 10px;
+  text-shadow: 0px 1px 1px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  size: 4px;
+}
+
+.maquee:hover {
+  background-color: rgb(255, 83, 15);
+}
+
+/* Card File CSS */
+
+.card-container{
+  display: flex;
+  justify-content: center ;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+}
+
+.card{
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin: 20px;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card-content{
+  padding: 16px;
+
+}
+
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+
+}
+
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+
+}
+
+.card-content .btn{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: green;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: white;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+
+}
+
+
+
+
+#state {
+
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.head {
+  text-align: center;
+  text-shadow: 0px 1px 1px;
+  color: green;
+}
+
+.container1{
+  margin-top: 60px;
+}
+
+.container2{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 99%;
+}
+
+.video{
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 0px 1px 1px;
+  color: green;
+  font-size: 60px;
+}
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card11 {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nav-buttons button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    min-width: 80%;
+  }
+}
+
+
+
+
+.footer {
+  background-color: #222;
+  color: #ddd;
+  padding: 40px 20px 20px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #bbb;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  color: #888;
+}
+
+
+/* css of cardb in agro wishws */
+
+.card-containerc {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Makes them wrap on small screens */
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cardc {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 1200px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.cardc:hover {
+  transform: translateY(-5px);
+}
+
+.cardc img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-contentc {
+  padding: 15px;
+}
+
+.card-contentc h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card-contentc p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.blog{
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Makes them wrap on small screens */
+ 
+  
+}
+
+.b1{
+  margin-top: 20px;
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  margin-left: 40px;
+}
+
+.b2{
+
+  justify-content: center;
+  display: flex;
+ 
+
+ 
+  flex-wrap: wrap; /* Makes them wrap on small screens */
+}
+
+.para{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.para2{
+  margin-left: 70px;
+}
+
+.para1{
+
+  margin-top: 30px;
+  
+}
+.farma{
+  margin-top: 40px;
+}
+
+.bo3{
+  margin-top: 30px;
+  margin-left: 10px;
+
+}
+
+/*whether css*/
+
+.container122{
+  background-color:  #E8F9FF;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  justify-content: center;
+  margin-left: 29%;
+  height: 400px;
+  width: 40%;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #161c1e;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:#769ce3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+/* g.php css */
+
+
+.govt-schemes {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.govt-schemes h2 {
+  color: #2d6a4f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scheme {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 5px solid #2d6a4f;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.scheme h3 {
+  margin-top: 0;
+  color: #1b4332;
+}
+
+.scheme p {
+  margin: 5px 0 0;
+}
+
+
+
+/*g.php css 1 */
+
+.faci {
+  background-color: #0b5394;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.faci1{
+  margin-top: 50px;
+  margin-left: 30px;
+  color: #0b5394;
+ 
+}
+
+
+section {
+  padding: 20px;
+}
+
+.contentn {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.n{
+  color: #1b4332;
+  font-weight: bold;
+}
+
+.video-card12 {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 360px;
+  margin: auto;
+}
+
+.video-card12 video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-content13 {
+  padding: 15px;
+}
+
+.video-title12 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.video-description12 {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.watch-btn12 {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.watch-btn12:hover {
+  background-color: #0056b3;
+}
